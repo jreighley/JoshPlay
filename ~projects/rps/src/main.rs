@@ -15,7 +15,7 @@ match mythrow - otherthrow {
 	2 => losses +=1,
 	1 => wins +=1,
        -2 => wins +=1,
-        _ => times +=1
+_ => {}
 }
 times+=1;
 }
